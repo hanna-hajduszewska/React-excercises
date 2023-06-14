@@ -1,0 +1,58 @@
+.result_card {
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(
+		180deg,
+		hsl(252, 100%, 67%) 0%,
+		hsl(241, 81%, 54%) 100%
+	);
+	border-radius: 2rem;
+	padding: 2rem;
+	align-items: center;
+}
+
+.heading {
+	color: hsl(241, 100%, 89%);
+	margin-bottom: 2rem;
+	font-size: 1.4rem;
+}
+
+.score_wrapper {
+	display: flex;
+	flex-direction: column;
+	border-radius: 50%;
+	background: linear-gradient(
+		180deg,
+		hsla(256, 72%, 46%, 1) 0%,
+		hsla(241, 72%, 46%, 0) 100%
+	);
+
+	padding: 2rem;
+	align-items: center;
+	justify-content: center;
+	height: 11rem;
+	width: 11rem;
+	margin-bottom: 1.7rem;
+}
+
+.score_wrapper strong {
+	color: hsl(0, 0%, 100%);
+	font-size: 4rem;
+	font-weight: 800;
+}
+
+.score_wrapper span {
+	color: hsl(241, 100%, 89%);
+}
+
+.result_card h4 {
+	color: hsl(0, 0%, 100%);
+	margin-bottom: 0.8rem;
+	font-size: 1.7rem;
+}
+
+.result_card p {
+	color: hsl(241, 100%, 89%);
+	padding: 0 1.4rem 1rem 1.4rem;
+	text-align: center;
+}

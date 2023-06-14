@@ -1,0 +1,38 @@
+.skillItem {
+	border-radius: 0.6rem;
+	padding: 0.9rem;
+	display: flex;
+}
+
+.title {
+	margin: 0 auto 0 0.5rem;
+}
+
+.score {
+	color: hsl(224, 30%, 27%);
+	margin-right: 0.5rem;
+}
+
+.maxScore {
+	color: hsl(230, 10%, 63%);
+}
+
+.reaction {
+	background-color: hsla(0, 100%, 67%, 0.2);
+	color: hsla(0, 100%, 67%);
+}
+
+.memory {
+	background-color: hsla(39, 100%, 56%, 0.2);
+	color: hsla(39, 100%, 56%);
+}
+
+.verbal {
+	background-color: hsla(166, 100%, 37%, 0.2);
+	color: hsla(166, 100%, 37%);
+}
+
+.visual {
+	background-color: hsla(234, 85%, 45%, 0.2);
+	color: hsla(234, 85%, 45%);
+}
